@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@android:color/holo_red_light">
+    <EditText android:id="@+id/edit_messagelook"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:hint="@string/edit_messagelook"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@android:color/background_light" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_search"
+        android:layout_gravity="center_vertical"
+        android:onClick="sendMessage"/>
+</LinearLayout>
